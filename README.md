@@ -20,9 +20,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping">
-    <img src="https://user-images.githubusercontent.com/57969201/230596004-24832a6e-79f1-4587-88b7-a528ac2010f2.png" alt="Logo" width="280" height="90">
+    <img src="https://user-images.githubusercontent.com/57969201/231114487-fa11864c-67eb-47f7-9422-eb4c63b0682a.png" alt="Logo" width="340" height="180">
   </a>
-  
+
+
 
 
 <h3 align="center">Práctica 1 - Web Scraping</h3>
