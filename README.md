@@ -8,13 +8,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -29,7 +22,9 @@
 <h3 align="center">Práctica 1 - Web Scraping</h3>
 
   <p align="center">
-    AÑADIR BREVE INTRO AL REPOR: Contexto. Explicar en qué contexto se ha recolectado la información. Explicar por qué el sitio web elegido proporciona dicha información. Indicar la dirección   del sitio web.
+    En esta práctica se ha llevado a cabo un caso práctico de Web Scraping, orientado a identificar y extraer datos relevantes del dominio <a href="https://www.expatistan.com/cost-of-living">Expatistan</a>. Esta <i>webpage</i> nos muestra los costes de vida por <b>países</b> y <b>ciudades</b> en un formato de <i>Ranking</i>, es decir, del que mayor costes prensenta hasta el país o ciudad donde vivir es más barato.
+    
+    Partiendo de la premisa del <i>webpage</i> y que cada país/ciudad tiene sus gastos divididos en categorías y elementos, esta página nos abre un mundo entero para realizar análisis estadístico de los costes de vida y concluir  
   </p>
 </div>
 
@@ -37,7 +32,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>ÍNDICE</summary>
   <ol>
     <li>
       <a href="#sobre-el-proyecto">Sobre el proyecto</a>
