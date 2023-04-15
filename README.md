@@ -153,7 +153,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Este proyecto ha sido llevado a cabo por:
 1. José Luis Santos Durango
 2. María Isabel González Sánchez
-Contáctanos: [Miembros del equipo](https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping/graphs/contributors)]
+
+Contáctanos: [Miembros del equipo](https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping/graphs/contributors)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
