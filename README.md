@@ -90,12 +90,12 @@ Por otro lado, tenemos un archivo `utils.py` que contiene todas las funciones co
 ### Herramientas y Librerías utilizadas
 
 * [Jupyter Notebook](https://jupyter.org/)
-* [Requests 2.28.2](https://pypi.org/project/requests/)
-* [Buildwith 1.3.4](https://pypi.org/project/builtwith/)
-* [BeautifulSoup4 4.12.2](https://pypi.org/project/beautifulsoup4/)
-* [Python-whois 0.8.0](https://pypi.org/project/python-whois/)
+* [Requests](https://pypi.org/project/requests/)
+* [Buildwith](https://pypi.org/project/builtwith/)
+* [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
+* [Python-whois](https://pypi.org/project/python-whois/)
 * Re
-* [Pandas 2.0.0](https://pypi.org/project/pandas/)
+* [Pandas](https://pypi.org/project/pandas/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
