@@ -13,17 +13,15 @@
 <br />
 <div align="center">
   <a href="https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping">
-    <img src="https://user-images.githubusercontent.com/57969201/231114487-fa11864c-67eb-47f7-9422-eb4c63b0682a.png" alt="Logo" width="340" height="180">
+    <img src="https://user-images.githubusercontent.com/57969201/232225800-5c7ecb7a-3f55-47cc-bd46-a94e17dfe6e2.png" alt="Logo" width="390" height="120">
   </a>
+  
 
-
-
-
-<h3 align="center">Práctica 1 - Web Scraping</h3>
+<h1 align="center">Práctica 1 - Web Scraping</h3>
 
   <p align="center">
     En esta práctica se ha llevado a cabo un caso práctico de Web Scraping, orientado a identificar y extraer datos relevantes del dominio <a href="https://www.expatistan.com/cost-of-living">Expatistan</a>. Esta <i>webpage</i> nos muestra los costes de vida por <b>países</b> y <b>ciudades</b> en un formato de <i>Ranking</i>, es decir, del que mayor costes prensenta hasta el país o ciudad donde vivir es más barato.
-    
+    </br></br>
     Partiendo de la premisa del <i>webpage</i> y que cada país/ciudad tiene sus gastos divididos en categorías y elementos, esta página nos abre un mundo entero para realizar análisis estadístico de los costes de vida y concluir  
   </p>
 </div>
@@ -56,61 +54,85 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre el proyecto
+<div align="center">
+<a href="https://www.expatistan.com/cost-of-living/index?ranking=1">
+    <img src="https://user-images.githubusercontent.com/57969201/232224215-296bb7d1-10bb-4db9-b3b8-bdf1da25453c.png" alt="Page" width="670" height="580">
+  </a>
+</div>
+Expatistan es un <i>webpage</i> que nos ofrece una forma sencilla, intiutiva y eficaz de visualizar el coste de vida por ciudades y países. Además, también se pueden hacer comparativas entre ellos y cálcular tu salarios aproximado por ciudad actual y ciudad de destino. </br></br>
 
-[![Product Name Screen Shot][product-screenshot]]()
+Par este proyecto nos centraremos en extraer los datos que hacer referencia a cada ciudad y país explicados por la página web. De ahí que en el repositorio hayan dos datasets extraídos: `cost_of_living_cities.csv` y `cost_of_living_countries.csv`. Como dicen sus nombres, cada uno corresponde al tipo de Web Scraping realizado en la página web y contendrán los siguinetes valores. 
+
+| cost_of_living_cities.csv  | cost_of_living_countries.csv | Explicación                                                                                      |
+| -------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------ |
+| Ranking position           | Ranking position             | Posición numérica del país o ciudad en el Raking de la web                                       |
+| Country                    | Country                      | Nombre del país de originen de la ciudad o país al que se le hace el Web Scraping respectivamente|
+| City                       | (No presenta esta columna)   | Nombre de la ciudad a la que se le está aplicando el Web Scraping                                |
+| State                      | (No presenta esta columna)   | Nombre del estado, si lo presenta, de la ciudad a la que se le está aplicando el Web Scraping    |
+| Category                   | Category                     | Nombre de la clasificación genérica que se le ha otorgado a un conjunto de `items`               |
+| Items                      | Items                        | Objetos o servicioscuyos precios nos sirven para estimar el coste de vida por país o ciudad      |
+| Original Currency          | Original Currency            | Nombre de la moneda usada por el país o ciudad a los que se ha aplicado el Web Scraping          |
+| Original Currency Value    | Original Currency Value      | Valor de la moneda usada por el país o ciudad a los que se ha aplicado el Web Scraping           |
+| Exchanged Currency         | Exchanged Currency           | Nombre de la moneda usada para el cambio de divisa                                               |
+| Exchanged Currency Value   | Exchanged Currency Value     | Valor de la moneda usada para el cambio de divisa                                                |
+
+</br></br>
+Estos CSV se consiguen a partir del código explicado en el Jupyter notebook `Scraping-notebook.ipynb`, que contiene una pequeña introducción a la página web y el >Web Scraping de Ciudades (clase `ExpatistanCityScraper()`) y de Países (clase `ExpatistanCountryScraper()`).
+
+Por otro lado, tenemos un archivo `utils.py` que contiene todas las funciones comunes a ambos Web Scrapings. Este fichero nos ahorrará tener código duplicado o con minimos cambios en ambas clases `ExpatistanCountryScraper()` y `ExpatistanCityScraper()`, haciendo que el notebook esté mejor optimizado y limpio.
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-### Herramientas utilizadas
+### Herramientas y Librerías utilizadas
 
-* [Node.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Bootstrap](https://getbootstrap.com)
-* [Material UI](https://mui.com/)
-* [Django](https://www.djangoproject.com/)
-* [SQLite](https://www.sqlite.org/index.html)
-* [PostGreSQL](https://www.postgresql.org/)
-* [Heroku](https://www.heroku.com)
-* [PythonAnywhere](https://www.pythonanywhere.com/)
+* [Jupyter Notebook](https://jupyter.org/)
+* [Requests 2.28.2](https://pypi.org/project/requests/)
+* [Buildwith 1.3.4](https://pypi.org/project/builtwith/)
+* [BeautifulSoup4 4.12.2](https://pypi.org/project/beautifulsoup4/)
+* [Python-whois 0.8.0](https://pypi.org/project/python-whois/)
+* Re
+* [Pandas 2.0.0](https://pypi.org/project/pandas/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ### Requisitos previos
 
-1. Tener instalado Jupyter Notebook o una cuenta de Google Colab
-2. 
+1. Tener instalado Jupyter Notebook en local o una cuenta de alguna plataforma de servicio Cloud con python notebooks habilitados (Google Colab, Kaggle, etc.)
+2. Tener python instalado en la máquina si se quiere usar el notebook en local.
+3. Tener las siguientes librerías instaladas (ver siguiente apartado).
 
 ### Instalaciones
 
-1. Download free version IDE's Webstorm (for [FrontEnd development](https://www.jetbrains.com/webstorm/promo/?source=google&medium=cpc&campaign=9641686281&gclid=Cj0KCQiA5OuNBhCRARIsACgaiqXr0BSmyGqFTP-DPPLxGKPytlIGUslCjV0FwmomHdCbeadpHMX2MW0aAtBgEALw_wcB)) and PyCharm (for [BackEnd development](https://www.jetbrains.com/es-es/pycharm/))
-2. Clone the repo
+1. Descargar la version gratis del IDE [Jupyter Notebook](https://jupyter.org/install)
+2. Descarga el repositorio en tu máquina o clonalo
    ```sh
    git clone https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping
    ```
-3. Install NPM packages in `frontend`
+   <div align="center">
+    <a href="https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping">
+      <img src="https://user-images.githubusercontent.com/57969201/232225560-96300869-907b-4e7a-8077-ee8165909db4.png" alt="download" width="380" height="390">
+    </a>
+   </div>
+3. Instala `python`, si no lo tienes en tu máquina, desde Microsoft Store y comprueba su instalación en PowerShell 
    ```sh
-   npm install
+   Python --version
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change the URLs in all the FrontEnd file to `debug_url` instead of `deploy_url`
-   ```js
-   const urls = debug_url;
-   ```
-6. Run the server on the BackEnd
+4. Abre el IDE Jupyter Notebook y navega entre los directorios hasta donde tengas guardado el notebook
+5. Abre el notebook `Scraping-notebook`
+6. Recomendamos ejecutar el apartado `1.1 Installations`auque se crea que la máquina tiene todas las librerías
 ```sh
-python manage.py runserver
+!pip install requests
+!pip install builtwith
+!pip install beautifulsoup4
+!pip install python-whois
 ```
-7. Run the web on the FrontEnd
-```sh
-npm start
-```
+7. Importar las librerías y el archivo `utils.py`
+8. Notebook preparado para realizar el scraping.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -130,7 +152,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Contáctanos: [Miembros del equipo]([https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping/graphs/contributors)]
 
-Link del proyecto: [Practica 1 - Web Scraping](https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
