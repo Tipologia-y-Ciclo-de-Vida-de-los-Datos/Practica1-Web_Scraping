@@ -77,7 +77,7 @@ Par este proyecto nos centraremos en extraer los datos que hacer referencia a ca
 | Exchanged Currency Value   | Exchanged Currency Value     | Valor de la moneda usada para el cambio de divisa                                                |
 
 </br></br>
-Estos CSV se consiguen a partir del código explicado en el Jupyter notebook `Scraping-notebook.ipynb`, que contiene una pequeña introducción a la página web y el >Web Scraping de Ciudades (clase `ExpatistanCityScraper()`) y de Países (clase `ExpatistanCountryScraper()`).
+Estos CSV se consiguen a partir del código explicado en el Jupyter notebook `Scraping-notebook.ipynb`, que contiene una pequeña introducción a la página web y el Web Scraping de Ciudades (clase `ExpatistanCityScraper()`) y de Países (clase `ExpatistanCountryScraper()`).
 
 Por otro lado, tenemos un archivo `utils.py` que contiene todas las funciones comunes a ambos Web Scrapings. Este fichero nos ahorrará tener código duplicado o con minimos cambios en ambas clases `ExpatistanCountryScraper()` y `ExpatistanCityScraper()`, haciendo que el notebook esté mejor optimizado y limpio.
 
@@ -149,8 +149,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contactos
-
-Contáctanos: [Miembros del equipo]([https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping/graphs/contributors)]
+Este proyecto ha sido llevado a cabo por:
+1. José Luis Santos Durango
+2. María Isabel González Sánchez
+Contáctanos: [Miembros del equipo](https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping/graphs/contributors)]
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
