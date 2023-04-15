@@ -96,6 +96,7 @@ Por otro lado, tenemos un archivo `utils.py` que contiene todas las funciones co
 * [Python-whois](https://pypi.org/project/python-whois/)
 * Re
 * [Pandas](https://pypi.org/project/pandas/)
+* [Session-info](https://pypi.org/project/session-info/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
