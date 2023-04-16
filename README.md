@@ -142,7 +142,7 @@ Por otro lado, tenemos un archivo `utils.py` que contiene todas las funciones co
 <!-- LICENSE -->
 ## Licencia
 
-Distributed under the CC BY-NC-SA 4.0 License. See `LICENSE.txt` for more information.
+Distributed under the CC BY-NC-SA 4.0 License. Ver `LICENSE.txt` para más información.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
