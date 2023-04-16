@@ -1,0 +1,13 @@
+La licencia escogida para los Datasets será CC BY-NC-SA 4.0. Las causas de esta elección son las siguientes:
+
+1. Se debe dar el correspondiendo crédito al autor de los Datasets, indicando la licencia y que cambios se han llevado a cabo. 
+
+2. Como sus siglas NC indican, no se permite el uso comercial del material. Esto lo tenemos que cumplir por el subapartado 6.2.4 del apartado “6. Licence” de los Términos y Condiciones que establece lo siguiente:
+
+“ 6.2. The License is granted:
+	[…]
+
+	6.2.4. solely for personal and not commercial purposes only in accordance with these Terms and Conditions, and only in the appropriate manner,”
+
+
+3. Cualquier cambio, transformación o mezcla de los datos de los Datasets debería distribuirse bajo la misma licencia que el original. Por lo tanto, esto permite mantener los términos establecidos con la licencia y el crédito al autor o autores de los conjuntos de datos.
