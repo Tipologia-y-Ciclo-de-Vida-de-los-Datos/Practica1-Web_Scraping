@@ -142,7 +142,7 @@ Por otro lado, tenemos un archivo `utils.py` que contiene todas las funciones co
 <!-- LICENSE -->
 ## Licencia
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the CC BY-NC-SA 4.0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -151,8 +151,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contactos
 Este proyecto ha sido llevado a cabo por:
-1. José Luis Santos Durango
-2. María Isabel González Sánchez
+1. José Luis Santos Durango - josant05@uoc.edu
+2. María Isabel González Sánchez - mgonzalezsanchez19@uoc.edu
 
 Contáctanos: [Miembros del equipo](https://github.com/Tipologia-y-Ciclo-de-Vida-de-los-Datos/Practica1-Web_Scraping/graphs/contributors)
 
