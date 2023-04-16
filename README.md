@@ -46,6 +46,7 @@
       </ul>
     </li>
     <li><a href="#licencia">Licencia del Dataset</a></li>
+    <li><a href="#dataset-link">Dataset link</a></li>
     <li><a href="#contactos">Contactos</a></li>
   </ol>
 </details>
@@ -146,6 +147,14 @@ Distributed under the CC BY-NC-SA 4.0 License. Ver `LICENSE.txt` para más infor
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<!-- Dataset link -->
+## Dataset link
+
+- Cost of Living by Country: https://doi.org/10.5281/zenodo.7833244
+- Cost of Living by City: https://doi.org/10.5281/zenodo.7833285
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
